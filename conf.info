@@ -1,0 +1,37 @@
+conf	;cometServer的配置文件
+{
+	pidfile cometServer.pid 	;保存进程Id文件
+	log
+	{
+		file logs/cometServer.log	;日志文件
+		level_name info		;日志级别名
+		rotate_size 20480 	;日志切片大小
+	}
+	admin
+	{
+		ip 192.168.100.128 	;服务器访问IP
+		port 8000	;服务器访问端口
+	}
+	front
+	{
+		ip 192.168.100.128	;前端访问IP
+		port 8100	;前端访问端口
+	}
+	timeout
+	{
+		channel 30	;通道超时值
+		subscriber 5	;用户超时值
+		polling 1 	;轮询时间
+		message 50 	;消息报文存活时间
+	}
+	max_per_channel
+	{
+		message 1024	;单通道最大消息数
+		subscriber 1024	;单通道最大用户数量
+	}
+    max_channel 1024    ;最大通道数
+    admin_allow_ip 127.0.0.1/192.168.100.128/192.168.170.128     ;允许的管理员登陆的IP
+    backlog 16  ;监听描述符数量
+    nthreads 8  ;初始化创建线程数量
+    generic_file ./doc_root/    ;通用请求读取的文件所在目录
+}

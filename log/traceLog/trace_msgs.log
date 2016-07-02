@@ -1,0 +1,86 @@
+[cometServer]|2016-05-09 10:00:14 TRACE [140345058682688] <run> - create HTTP Server success !
+[cometServer]|2016-05-09 10:00:14 TRACE [140345058682688] <run> - init thread pool complete !
+[cometServer]|2016-05-09 10:00:24 TRACE [140637196871488] <run> - create HTTP Server success !
+[cometServer]|2016-05-09 10:00:24 TRACE [140637196871488] <run> - init thread pool complete !
+[cometServer]|2016-05-09 10:00:31 TRACE [140637105948416] <pub_handler> - push message "phonex" to channel[3]
+
+[cometServer]|2016-05-09 10:10:44 TRACE [140670784550720] <run> - create HTTP Server success !
+[cometServer]|2016-05-09 10:10:44 TRACE [140670784550720] <run> - init thread pool complete !
+[cometServer]|2016-05-09 10:10:50 TRACE [140670710413056] <pub_handler> - push message "phonex" to channel[3]
+
+[cometServer]|2016-05-09 20:45:41 TRACE [139733114406720] <run> - create HTTP Server success !
+[cometServer]|2016-05-09 20:45:41 TRACE [139733114406720] <run> - init thread pool complete !
+[cometServer]|2016-05-09 20:45:53 TRACE [139733076014848] <pub_handler> - push message "allen" to channel[1]
+
+[cometServer]|2016-05-09 20:45:58 TRACE [139733015090944] <sub_handler> - reply to subscriber[0]: {type: "text", cid: "1", content: "phonex"}
+
+[cometServer]|2016-05-09 20:45:58 TRACE [139733015090944] <sub_handler> - reply to subscriber[0]: {type: "text", cid: "1", content: "allen"}
+
+[cometServer]|2016-05-09 20:46:31 TRACE [139733015090944] <generic_handler> - reply to subscriber[1]: file[index.html]
+
+[cometServer]|2016-05-09 20:46:34 TRACE [139733015090944] <generic_handler> - reply to subscriber[2]: file[index.html]
+
+[cometServer]|2016-05-09 20:48:38 TRACE [140469059434304] <run> - create HTTP Server success !
+[cometServer]|2016-05-09 20:48:38 TRACE [140469059434304] <run> - init thread pool complete !
+[cometServer]|2016-05-09 20:48:45 TRACE [140468976903936] <generic_handler> - reply to subscriber[0]: file[index.html]
+
+[cometServer]|2016-05-09 20:48:45 TRACE [140468976903936] <generic_handler> - reply to subscriber[1]: file[doc/src/boostbook.css]
+
+[cometServer]|2016-05-09 20:48:45 TRACE [140468985296640] <generic_handler> - reply to subscriber[2]: file[boost.png]
+
+[cometServer]|2016-05-10 09:49:16 TRACE [140379544287040] <run> - create HTTP Server success !
+[cometServer]|2016-05-10 09:49:16 TRACE [140379544287040] <run> - init thread pool complete !
+[cometServer]|2016-05-10 09:49:50 TRACE [140379453363968] <generic_handler> - reply to subscriber[0]: file[index.html]
+
+[cometServer]|2016-05-10 09:49:51 TRACE [140379453363968] <generic_handler> - reply to subscriber[1]: file[doc/src/boostbook.css]
+
+[cometServer]|2016-05-10 09:49:51 TRACE [140379495327488] <generic_handler> - reply to subscriber[2]: file[boost.png]
+
+[cometServer]|2016-05-10 09:49:51 TRACE [140379453363968] <generic_handler> - reply to subscriber[3]: file[favicon.ico]
+
+[cometServer]|2016-05-10 10:01:48 TRACE [140692811425600] <run> - create HTTP Server success !
+[cometServer]|2016-05-10 10:01:48 TRACE [140692811425600] <run> - init thread pool complete !
+[cometServer]|2016-05-10 10:02:02 TRACE [140692773033728] <generic_handler> - reply to subscriber[0]: file[index.html]
+
+[cometServer]|2016-05-10 10:02:02 TRACE [140692762466048] <generic_handler> - reply to subscriber[1]: file[favicon.ico]
+
+[cometServer]|2016-05-10 10:02:46 TRACE [140692773033728] <generic_handler> - reply to subscriber[2]: file[index.html]
+
+[cometServer]|2016-05-10 10:14:38 TRACE [140595757684544] <run> - create HTTP Server success !
+[cometServer]|2016-05-10 10:14:38 TRACE [140595757684544] <run> - init thread pool complete !
+[cometServer]|2016-05-11 17:47:16 TRACE [140454554261312] <run> - create HTTP Server success !
+[cometServer]|2016-05-11 17:47:16 TRACE [140454554261312] <run> - init thread pool complete !
+[cometServer]|2016-05-11 17:47:28 TRACE [140454454945536] <generic_handler> - reply to subscriber[0]: file[index.html]
+
+[cometServer]|2016-05-11 17:47:29 TRACE [140454496909056] <generic_handler> - reply to subscriber[1]: file[favicon.ico]
+
+[cometServer]|2016-05-11 17:48:16 TRACE [140454463338240] <generic_handler> - reply to subscriber[2]: file[index.html]
+
+[cometServer]|2016-05-11 17:48:31 TRACE [140454463338240] <generic_handler> - reply to subscriber[3]: file[index.html]
+
+[cometServer]|2016-05-11 17:48:50 TRACE [140454463338240] <generic_handler> - reply to subscriber[4]: file[index.html]
+
+[cometServer]|2016-05-12 10:19:16 TRACE [140028136945472] <run> - create HTTP Server success !
+[cometServer]|2016-05-12 10:19:16 TRACE [140028136945472] <run> - init thread pool complete !
+[cometServer]|2016-05-12 10:19:38 TRACE [140574703130432] <run> - create HTTP Server success !
+[cometServer]|2016-05-12 10:19:38 TRACE [140574703130432] <run> - init thread pool complete !
+[cometServer]|2016-05-12 10:19:44 TRACE [140574603814656] <pub_handler> - push message "hello" to channel[1]
+
+[cometServer]|2016-05-12 10:19:49 TRACE [140574603814656] <sub_handler> - reply to subscriber[0]: {type: "text", cid: 1, content: "phonex"}
+
+[cometServer]|2016-05-12 10:19:49 TRACE [140574603814656] <sub_handler> - reply to subscriber[0]: {type: "text", cid: 1, content: "allen"}
+
+[cometServer]|2016-05-12 10:19:49 TRACE [140574603814656] <sub_handler> - reply to subscriber[0]: {type: "text", cid: 1, content: "hello"}
+
+[cometServer]|2016-05-13 18:14:31 TRACE [139748215592768] <run> - create HTTP Server success !
+[cometServer]|2016-05-13 18:14:31 TRACE [139748215592768] <run> - init thread pool complete !
+[cometServer]|2016-05-13 18:15:32 TRACE [139748124669696] <generic_handler> - reply to subscriber[0]: file[index.html]
+
+[cometServer]|2016-05-13 18:15:33 TRACE [139748124669696] <generic_handler> - reply to subscriber[1]: file[favicon.ico]
+
+[cometServer]|2016-07-01 15:11:07 TRACE [139654122751808] <run> - create HTTP Server success !
+[cometServer]|2016-07-01 15:11:07 TRACE [139654122751808] <run> - init thread pool complete !
+[cometServer]|2016-07-01 15:11:18 TRACE [139654023436032] <generic_handler> - reply to subscriber[0]: file[index.html]
+
+[cometServer]|2016-07-01 15:11:18 TRACE [139654031828736] <generic_handler> - reply to subscriber[1]: file[favicon.ico]
+
